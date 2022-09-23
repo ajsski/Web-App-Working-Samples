@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body 
+	{text-align: center; font-family: "Noto Sans", sans-serif;}
+
+.nav-link
+	{color: royalblue; text-transform: uppercase; font-size: 1em; }
+.active 
+	{border-bottom: gold 2px solid; font-size: 1.1em; font-weight: bolder;} 
+.footer 
+	{background-color: #F8F8F8; padding: 1.8em; font-size: .8em; text-transform: uppercase; align-content: center;}
+.phone 
+	{color: royalblue; font-weight: bolder; font-size: 2.25rem; font-style: bold; }
+.callout 
+	{align-items: center; text-align: center; padding-top:1em;}
+.carousel {margin-top: 15px; margin-bottom: 15px;}
+		

@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+/*inital interview for client page*/
+
+body {
+	font-family: Arial, Helvetica, 'sans-serif';
+	font-size: 1em;
+}
+h1 {
+	font-size: 2em;
+	text-align: center;
+	text-transform: uppercase;
+}
+li {
+	padding: 1em;
+	
+	}
+.btn, .btn-lg {
+	margin-left:.7em;
+	margin-right: .7em;
+    padding: 2em;
+    font-size: 1.5em;
+    line-height: 5em;
+	line-width: auto;
+    border-radius: .8em;
+	}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn {
+    display: inline-block;
+    font-weight: bold;
+    text-align: left;
+    white-space: 
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 2px solid white;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .8em;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+footer
+	{padding: 20px;
+	font-family: Cambria, Times, "Times New Roman", "serif";
+	color: black; 
+	text-align: center;
+	}	
+footer a
+	{padding: 20px;
+	font-family:"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #007bff;
+	}	
+	
+
+
