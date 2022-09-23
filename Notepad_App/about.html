@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About this Notepad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/notes.css">
+    <script src="./js/storage.js"></script>
+</head>
+<body onload="set_date()">
+<br/>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-1"></div> <!-- left main grid column -->
+        <div class="col-sm-10">
+
+<h1>About this Notepad</h1>
+<nav class="navbar navbar-expand-sm bg-light sticky-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand">About Notepad</a>
+        </div>
+        <ul class="navbar-nav nav_list">
+            <li ><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="new_note.html">New Note</a></li>
+            <li class="active"><a class="nav-link" href="about.html">About Notes</a></li>
+        </ul>
+    </div>
+</nav>
+<br/>
+<h2>Notepad Basics</h2>
+<p>This notepad application allows you to create a new note, edit existing notes, and delete
+    notes (using a web browser like Firefox or Chrome). There are no accounts, no service logins
+    and no software to download. The data you enter lives only on your device.</p>
+<p>There are only four pages to the entire site (<a href="./index.html">index.html</a>, <a href="./new_note.html">new_note.html</a>, <a href="./edit_note.html">edit_note.html</a> and <a href="./about.html">about.html</a>)
+    one style sheet, <a href="./css/notes.css">notes.css</a>, and one main javascript file to control app functions <a href="./js/storage.js">storage.js</a>. The site makes use of Bootstrap version 5 for layout and convenience.</p>
+<p>The site features four buttons (Erase All Notes - remove all notes), (View/Edit - Read or edit a note),
+    (Delete/Remove - erase a single note) and (Save - save the note you have created).</p>
+<button class="btn btn-danger">All Clear</button>&nbsp;&nbsp;<button class="btn btn-warning">View/Edit</button>&nbsp;&nbsp;<button class="btn btn-danger">Delete/Remove</button>&nbsp;&nbsp;<button class="btn btn-success">Save Note</button><br/><br/>
+
+<p>The quantity of notes you can create, and the length of each note created is limited by the storage
+    capacity of your device and by the HTML-5 localStorage implementation of the browser you use.</p>
+
+<hr/>
+<h2>Privacy of Data</h2>
+<p>This notepad application does not save any information onto the cloud (or online), but instead
+    uses your local browser (like Firefox or Chrome) via HTML5 localStorage to save notes for
+    later retrieval.</p>
+<p>The benefit is that your information remains private to your device, and is never harvested, collected,
+     shared or sold with any party anywhere in person or virtually.</p>
+<p>The shortcoming is that (in its current configuration) your information is only available to you in the browser you created the note in,
+    and it does not go from one browser to another, or from one laptop/phone you use to another. In addition,
+    if your browser or device fails, there is no possibility of remote data recovery or retrieval.</p>
+
+<hr/>
+<h2>Limitations</h2>
+<p>This notepad application is free to use but absolutely no warranty or guarantee is made about its
+    performance, reliability or security.</p>
+<p>Savvy users might copy the code and run the app locally, however online users acknowledge that the application
+    has no maintenance schedule and may without explanation one day disappear, change, be modified/updated or otherwise suddenly fail.</p>
+<p>Any user of this technology agrees to forever hold the author harmless in all circumstances related
+    to the use of this app, as well as for anything that could ever happen to them during their current or future lives.</p>
+<p>If you are compelled to make a donation, please contact your local food bank or animal rescue who will
+    greatly appreciate your charitable contribution.</p>
+
+<footer><article><br/><hr/><p id="footer_here"></p></article></footer>
+
+        </div> <!-- end of main grid layout -->
+<div class="col-sm-1"></div> <!-- right main grid column -->
+</div>
+</div>
+</body>
+</html>

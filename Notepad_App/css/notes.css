@@ -1,0 +1,10 @@
+/*  Clinton Garwood
+    Browser Notes App
+    Created January 2022
+ */
+
+/* Set the nav bar list items to display without icons*/
+ul.nav_list {
+    list-style-type: none;
+}
+

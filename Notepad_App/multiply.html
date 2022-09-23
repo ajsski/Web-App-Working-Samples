@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>multiple javascript example</title>
+</head>
+
+<!--rate at which is currently set for 2022 at 58.5 per mile-->
+<script type="text/javascript">
+    function myGasRate()
+    {
+        var a, b, result;
+        a = document.getElementById("box1").value;
+        b = 58.5;
+        result = a * b;
+        document.getElementById("r").innerHTML = a + " * " + b + " = " + result;
+    }
+</script>
+<body style="text-align:center">
+<h1>Gas allowance</h1>
+<input type="number" id="box1">
+<button onclick="myGasRate()">result</button>
+<hr>
+<span id="r"></span>
+</body>
+</html>

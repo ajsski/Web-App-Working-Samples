@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Notepad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/notes.css">
+    <script src="./js/asStorage.js"></script>
+</head>
+<body onload="read_keys()">
+<br/>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-1"></div> <!-- left main grid column -->
+        <div class="col-sm-10">
+
+<br/>
+<h1>My Notepad</h1>
+<nav class="navbar navbar-expand-sm bg-light sticky-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand">Notepad Home</a>
+        </div>
+        <ul class="navbar-nav nav_list">
+            <li class="active"><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="new_note.html">New Entry</a></li>
+            <li><a class="nav-link" href="about.html">About Notes</a></li>
+        </ul>
+    </div>
+</nav>
+
+<br/><p id="key_length">There are no notes saved in local storage</p>
+
+<table class="table" id="saved_notes">
+    <thead class="table-success">
+    <tr><th>Note Title</th><th>Note Text</th><th>View or Edit</th><th>Remove</th></tr></thead>
+    <tbody>
+    </tbody>
+</table>
+
+<br/><p>Remove All Notes?&nbsp;
+<button type="submit" class="btn btn-danger" onclick="clear_all()">Erase All Notes</button><br/></p>
+
+<footer><article><br/><hr/><p id="footer_here"></p></article></footer>
+
+        </div> <!-- end of main grid layout -->
+        <div class="col-sm-1"></div> <!-- right main grid column -->
+    </div>
+</div>
+</body>
+</html>
